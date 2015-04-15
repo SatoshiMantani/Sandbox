@@ -115,6 +115,12 @@ namespace ConsoleApplication2
             */
 
 
+
+
+
+
+
+
             //            C#練習問題②【switch・連想配列・多次元配列】
             //Visual C# を使って、次のようなコンソールアプリケーションを作成してください。
             //(30) 商品の在庫をあらわす連想配列を定義し、次のように画面に表示してください。
@@ -125,17 +131,16 @@ namespace ConsoleApplication2
 
 
 
-            //var dic = new Dictionary<string, int>();
-            //dic["やくそう"] = 50;
-            //dic["どくけしそう"] = 20;
-            //dic["せかいじゅのは"] = 1;
-            //dic["せいすい"] = 3;
-            //foreach (KeyValuePair<string, int> kvp in dic)
-            //{
+            var dic = new Dictionary<string, int>();
+            dic["やくそう"] = 50;
+            dic["どくけしそう"] = 20;
+            dic["せかいじゅのは"] = 1;
+            dic["せいすい"] = 3;
+            foreach (var a in dic)
+            {
+                Console.WriteLine("{0}\t{1,2}個", a.Key, a.Value);
 
-            //    Console.WriteLine("{0}\t{1,2}個", kvp.Key, kvp.Value);
-
-            //}
+            }
 
 
             //            (31) 商品番号・在庫・販売価格・仕入価格を整数で表す多次元配列を定義し、次のよう
