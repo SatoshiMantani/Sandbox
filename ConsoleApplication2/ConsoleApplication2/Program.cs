@@ -123,6 +123,8 @@ namespace ConsoleApplication2
             //せかいじゅのは 1 個
             //せいすい 3 個
 
+
+
             //var dic = new Dictionary<string, int>();
             //dic["やくそう"] = 50;
             //dic["どくけしそう"] = 20;
@@ -144,6 +146,7 @@ namespace ConsoleApplication2
             //2 200 5000 3000
             //3 50 90 33
 
+            
 
             //Console.WriteLine("商品番号" + "    在庫" + "    販売価格" + "     仕入れ価格");
             //Console.WriteLine("-------------------------------------------");
@@ -169,8 +172,7 @@ namespace ConsoleApplication2
             //氏名：白木 点数：100
             //氏名：西 点数： 10
 
-
-
+            
 
 
 
@@ -198,14 +200,24 @@ namespace ConsoleApplication2
             //合計点 266 点
             //平均点 53 点
 
+            //var dic = new Dictionary<string, int>();
+            //dic["氏名：矢吹"] = 2;
+            //dic["氏名：丹下"] = 74;
+            //dic["氏名：力石"] = 80;
+            //dic["氏名：白木"] = 100;
+            //dic["氏名：西  "] = 10;
+            //int zyuken = 0;
+            //int goukei = 0;
+            //foreach (var a in dic)
+            //{
+            //    Console.WriteLine("{0}　点数：{1,3}", a.Key, a.Value);
+            //    zyuken++;
+            //    goukei = goukei + a.Value;
+            //}
+            //Console.WriteLine("受験者　{0,3}名", zyuken);
+            //Console.WriteLine("合計点　{0,3}点", goukei);
+            //Console.WriteLine("平均点　{0,3}点", goukei/zyuken);
 
-
-            //var dic1 = new Dictionary<string, int>();
-            //dic1["氏名：矢吹"] = 2;
-            //dic1["氏名：丹下"] = 74;
-            //dic1["氏名：力石"] = 80;
-            //dic1["氏名：白木"] = 100;
-            //dic1["氏名：西　"] = 10;
 
 
             //            (34) (32) の配列を利用して、次の基準で判定し、判定結果を出力してください。ただ
@@ -219,6 +231,40 @@ namespace ConsoleApplication2
             //氏名：力石 点数： 80 評価：優
             //氏名：白木 点数：100 評価：優
             //氏名：西 点数： 10 評価：不可
+
+
+            //var dic = new Dictionary<string, int>();
+            //dic["氏名：矢吹"] = 2;
+            //dic["氏名：丹下"] = 74;
+            //dic["氏名：力石"] = 80;
+            //dic["氏名：白木"] = 100;
+            //dic["氏名：西  "] = 10;
+          
+            //foreach (var a in dic)
+
+            //{
+            //    if (80<=a.Value)
+            //    {
+            //        Console.WriteLine("{0}　点数：{1,3} 評価：　優", a.Key, a.Value);
+                    
+            //    }
+            //    else if (80 > a.Value&&70<=a.Value)
+            //    {
+            //        Console.WriteLine("{0}　点数：{1,3} 評価：　良", a.Key, a.Value);
+
+            //    }
+            //    else if (70 > a.Value && 60 <= a.Value)
+            //    {
+            //        Console.WriteLine("{0}　点数：{1,3} 評価：　可", a.Key, a.Value);
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("{0}　点数：{1,3} 評価：不可", a.Key, a.Value);
+
+            //    }
+            //}
+          
 
 
             //foreach (KeyValuePair<string, int> kvp in dic1)
@@ -253,6 +299,51 @@ namespace ConsoleApplication2
             //と表示して最初に戻り、数字以外の入力があった場合には
             //数字を入力してください
             //と表示して最初に戻るようにして下さい。
+
+            //Console.WriteLine("0～6の数字を入力してください、対応した曜日を表示します");
+            //string input = "";
+            //int a;
+            //input=Console.ReadLine();
+            //while (int.TryParse(input, out a) == false||(a>6||a<0))
+            //{
+            //    if (a > 6 || a < 0)
+            //    {
+            //        Console.WriteLine("0～6の範囲で入力してください");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("数字を入力してください");
+            //    }
+            //        input = Console.ReadLine();
+            //}
+
+            //switch(a)
+            //{
+            //    case(0):
+            //        Console.WriteLine("日曜日");
+            //        break;
+
+            //    case (1):
+            //        Console.WriteLine("月曜日");
+            //        break;
+            //    case (2):
+            //        Console.WriteLine("火曜日");
+            //        break;
+            //    case (3):
+            //        Console.WriteLine("水曜日");
+            //        break;
+            //    case (4):
+            //        Console.WriteLine("木曜日");
+            //        break;
+            //    case (5):
+            //        Console.WriteLine("金曜日");
+            //        break;
+                    
+            //    case(6):
+            //        Console.WriteLine("土曜日");
+            //        break;
+            //}
+
 
             //int a;
             //string input = "";
@@ -297,7 +388,7 @@ namespace ConsoleApplication2
             //        break;
 
             //}
-           
+            Console.ReadLine();
 
         }
     }
